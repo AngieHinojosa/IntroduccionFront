@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Reserva - Hotel</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+<body>
+    <div class="contenedor">
+        <h1>Reserva en Nuestro Hotel</h1>
+        <form id="formulario-reserva">
+            <label for="nombre">Ingresa tu nombre</label>
+            <br>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+            <br>
+            <label for="email">Ingresa tu email</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Correo electrónico" required>
+            <br>    
+            <label for="fechaLlegada">Ingresa tu fecha de llegada</label>
+            <br>
+            <input type="date" name="fechaLlegada" id="fecha-llegada" placeholder="Fecha de llegada">
+            <br>
+            <label for="fechaSalida">Ingresa tu fecha de salida</label>
+            <br>
+            <input type="date" name="fechaSalida" id="fecha-salida" placeholder="Fecha de salida">
+            <br>
+            <label for="habitacion">Elige tu tipo de habitación</label>
+            <br>
+            <select name="habitacion" id="tipo-habitacion">
+                <option value="">Selecciona el tipo de habitación</option>
+                <option value="individual">Habitación Individual</option>
+                <option value="doble">Habitación Doble</option>
+                <option value="suite">Habitación Suit</option>
+            </select>
+            <button id="boton" type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
+
+    
